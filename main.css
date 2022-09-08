@@ -55,13 +55,13 @@ section {
 slider{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    max-width: 411.73px;
-    max-height: 370.8px;
 }
 
-#container {
+.slider-img {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.slider-text {
+    display: flex;
+    flex-direction: column;
 }
