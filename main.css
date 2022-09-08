@@ -1,1 +1,67 @@
 /* main css for cloned website will be here */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+/* Body */
+body{
+    margin: 0;
+
+}
+
+/* Navigation bar */
+nav{
+    background-color: white;
+    height: 60px;
+    display: flex;
+    align-items: baseline;
+}
+
+.logo {
+padding-top: 1em;
+padding-bottom: 1em;
+padding-left: 5em;
+padding-right: 1em;
+}
+
+.nav-links {
+    padding: 1em;
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: small;
+}
+
+/* Promo section */
+section {
+    background-color: rgba(48, 48, 182, 0.829);
+    height:40px ;
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.promo {
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: medium;
+}
+
+/* Slider */
+
+slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 411.73px;
+    max-height: 370.8px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
