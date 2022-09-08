@@ -1,67 +1,75 @@
 /* main css for cloned website will be here */
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 
 /* Body */
-body{
-    margin: 0;
-
+body {
+  margin: 0;
 }
 
 /* Navigation bar */
-nav{
-    background-color: white;
-    height: 60px;
-    display: flex;
-    align-items: baseline;
+nav {
+  background-color: white;
+  height: 60px;
+  display: flex;
+  align-items: baseline;
 }
 
 .logo {
-padding-top: 1em;
-padding-bottom: 1em;
-padding-left: 5em;
-padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 5em;
+  padding-right: 1em;
 }
 
 .nav-links {
-    padding: 1em;
-    text-decoration: none;
-    color: black;
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: small;
+  padding: 1em;
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: small;
 }
 
 /* Promo section */
 section {
-    background-color: rgba(48, 48, 182, 0.829);
-    height:40px ;
-    display: flex;
-    justify-content: center;
-    padding-top: 1em;
+  background-color: rgba(48, 48, 182, 0.829);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
 }
 
 .promo {
-    text-decoration: none;
-    color: white;
-    font-family: "Roboto";
-    font-weight: 500;
-    font-size: medium;
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: medium;
 }
 
 /* Slider */
 
-slider{
-    display: flex;
-    flex-direction: row;
+#slider {
+  display: flex;
+  flex-direction: row;
 }
 
 .slider-img {
-    display: flex;
-    justify-content: flex-start;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
 }
 .slider-text {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.link-group {
+  padding-top: 1em;
+  margin: 0;
+}
+.button{
+  padding-right:0.5em;
 }
