@@ -34,7 +34,7 @@ nav {
 
 /* Promo section */
 section {
-  background-color: rgba(48, 48, 182, 0.829);
+  background-color: blue;
   height: 40px;
   display: flex;
   justify-content: center;
@@ -60,13 +60,16 @@ section {
 .slider-img {
   margin: 0;
   float: left;
-  max-width:50%;
+  max-width: 100vh;
   height: auto;
 }
 .slider-text {
   display: flex;
   flex-direction: column;
   float: right;
+  padding-left: -20px;
+  height: auto;
+  width: 100vh;
   background-color: white;
 }
 .link-group {
