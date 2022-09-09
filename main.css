@@ -54,16 +54,19 @@ section {
 #slider {
   display: flex;
   flex-direction: row;
+  overflow: auto;
 }
 
 .slider-img {
   margin: 0;
-  display: flex;
-  justify-content: flex-start;
+  float: left;
+  max-width:50%;
+  height: auto;
 }
 .slider-text {
   display: flex;
   flex-direction: column;
+  float: right;
   background-color: white;
 }
 .link-group {
